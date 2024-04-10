@@ -1,0 +1,10 @@
+{
+    "C_Cpp.default.includePath": [
+        "${env:PLAYDATE_SDK_PATH}/C_API",
+        "${env:PLAYDATE_SDK_PATH}/C_API/pd_api"
+    ],
+    "C_Cpp.default.defines": [
+        "TARGET_EXTENSION"
+    ],
+	"C_Cpp.default.compilerPath": "${if: os == 'windows'}? '${env:MINGW64_PATH}' : ''"
+}

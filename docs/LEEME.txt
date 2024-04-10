@@ -1,0 +1,19 @@
+********************************************************************************
+*																			   *
+*	PlayPong for Playdate													   *
+*																			   *
+*	Project started February 22, 2024										   *
+*	https://nightfoxandco.com												   *
+*	contact@nightfoxandco.com												   *
+*																			   *
+********************************************************************************
+
+- ¿Que es PlayPong para Playdate?
+Es el primer juego, desarrollado en una semana, que he realizado para probar el entorno de desarrollo y las características de la consola Playdate de Panic.
+PlayPong es un juego arcade para 1 o 2 jugadores, inspirado en el clásico Pong de Atari.
+
+- ¿Como se juega?
+Desde el menú inicial, se puede escoger el número de jugadores (1 o 2) y en el caso de 1 jugador, si este jugara a la izquierda de la pantalla usando el pad direccional o a la derecha usando la manivela. En el modo de dos jugadores, el jugador 1 usara el pad direccional y el jugador 2 la manivela. Los botones A y B se usan para aceptar las opciones y realizar la acción de saque en la partida. Una vez seleccionado el modo de juego, se han de seleccionar también el número de puntos necesarios para ganar la partida.
+
+- ¿Como se ha desarrollado?
+Se ha programado usando el kit de desarrollo oficial de Playdate, usando el lenguaje C. Se ha creado además el proyecto para Visual Studio Code, así como diferentes scripts para facilitar su compilación en Linux y Windows.

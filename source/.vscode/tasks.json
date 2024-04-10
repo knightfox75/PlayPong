@@ -1,0 +1,65 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile - Device [DEBUG]",
+            "type": "shell",
+            "windows": {
+                "command": "${workspaceFolder}/compile_device_debug.bat -nopause"
+            },
+            "linux": {
+                "command": "${workspaceFolder}/compile_device_debug.sh -nopause"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "Compile - Device [RELEASE]",
+            "type": "shell",
+            "windows": {
+                "command": "${workspaceFolder}/compile_device_release.bat -nopause"
+            },
+            "linux": {
+                "command": "${workspaceFolder}/compile_device_release.sh -nopause"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "Compile - Simulator [DEBUG]",
+            "type": "shell",
+            "windows": {
+                "command": "${workspaceFolder}/compile_sim_debug.bat -nopause"
+            },
+            "linux": {
+                "command": "${workspaceFolder}/compile_sim_debug.sh -nopause"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Compile - Simulator [RELEASE]",
+            "type": "shell",
+            "windows": {
+                "command": "${workspaceFolder}/compile_sim_release.bat -nopause"
+            },
+            "linux": {
+                "command": "${workspaceFolder}/compile_sim_release.sh -nopause"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        }
+    ]
+}

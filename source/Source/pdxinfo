@@ -1,0 +1,10 @@
+name=Play Pong
+author=Cesar Rincon Nadal
+description=A Pong style game for playdate.
+bundleID=com.nightfox.playpong
+version=0.9.0-beta
+buildNumber=63
+imagePath=
+launchSoundPath=
+contentWarning=
+contentWarning2=
