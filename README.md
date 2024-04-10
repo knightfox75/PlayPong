@@ -4,7 +4,7 @@ Project started February 22, 2024
 [Website](https://nightfoxandco.com)  
 [Contact](mailto:contact@nightfoxandco.com)
 
-## What is PlayPong for Playdate?
+## What is Play Pong for Playdate?
 It is the first game, developed in a week, that I have created to test the development environment and features of the Panic Playdate console. PlayPong is an arcade game for 1 or 2 players, inspired by the classic Atari Pong.
 
 ## How to play?
